@@ -1,3 +1,5 @@
+"""GitHub Classroom autograding script."""
+
 import pickle
 
 import pandas as pd
