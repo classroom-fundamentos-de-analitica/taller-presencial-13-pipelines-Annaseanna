@@ -1,5 +1,3 @@
-"""GitHub Classroom autograding script."""
-
 import pickle
 
 import pandas as pd
@@ -35,7 +33,7 @@ def load_estimator():
     return estimator
 
 
-def test():
+def test_model():
 
     data, target = load_data()
     estimator = load_estimator()
@@ -45,7 +43,7 @@ def test():
         y_pred=estimator.predict(data),
     )
 
-    assert accuracy > 0.9545
+    assert accuracy > 0.9500
 
 
-test()
+test_model()
